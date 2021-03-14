@@ -1,0 +1,13 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    width: 825px;
+}
+.container{
+    margin: 0 auto;
+}
+img{
+    width: 230px;
+    height: 230px;
+}

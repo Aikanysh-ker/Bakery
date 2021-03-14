@@ -5,11 +5,12 @@ let $sweets = document.querySelector("#sweets");
 const renderSweetElement = (sweet) => {
   let $html = document.createElement("div");
   $html.classList.add("sweet");
+  $html.classList.add("col-md-4");
   $html.innerHTML = `
-    <img src='${sweet.image}' alt = '${sweet.name}'>
+    <img src='${sweet.image}' alt = '${sweet.name}' class="sweet__img">
     <h3>${sweet.name}</h3>
     <p class = 'sweet__ingredients'>${sweet.ingredients.join(", ")}</p>
-    <p class = 'sweet__price'>$${sweet.price}</p>
+    <p class = 'sweet__price'>$${sweet.cost}</p>
     `;
   return $html;
 };
