@@ -1,0 +1,90 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.header__admin {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.header {
+  height: 100px;
+  background: #8e4575;
+  width: 100vw;
+  margin-bottom: 105px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.content__title {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.item-field form {
+  display: none;
+}
+.editing .item-field form{
+  display: inline-block;
+}
+.editing .item-field .edit-btn,
+.editing .item-field .sweet-name
+{
+  display: none;
+}
+.delete-icon{
+  content: '';
+  background-image: url(/frontend/images/delete-icon.svg);
+  width: 14px;
+  height: 18px;
+  display: inline-block;
+}
+.sweet-name {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #303e3d;
+  float: left;
+}
+.edit-icon {
+  background-image: url(/frontend/images/edit-icon.svg);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  content: "";
+  margin-left: 23px;
+}
+.edit-btn,
+.update-name,
+.delete-btn {
+  background: none;
+  border: none;
+}
+.done-icon {
+  background-image: url(/frontend/images/done-icon.svg);
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: inline-block;
+}
+.icon-increase {
+  background-image: url("/frontend/images/plus-icon.svg");
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.btn-increase,
+.btn-decrease {
+  background: none;
+  border: none;
+}
+.icon-decrease {
+  background-image: url("/frontend/images/minus-icon.svg");
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
